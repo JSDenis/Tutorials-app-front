@@ -13,7 +13,7 @@ const getData = () =>{
             ulUsers.innerHTML = '';
             data.forEach((item)=>{
                 ulUsers.innerHTML += `
-                <li data-id="${item.id}">${item.title} <strong>and</strong> ${item.description} <a class="waves-effect waves-light btn delete-btn">Delete</a><a class="waves-effect waves-light btn edit-btn">Edit</a></li>
+                <li data-id="${item.id}">${item.title} <strong>and</strong> ${item.description} <a class="waves-effect waves-light btn delete-btn">Delete</a><!--<a class="waves-effect waves-light btn edit-btn">Edit</a>--></li>
                 `
             })
         }
